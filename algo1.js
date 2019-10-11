@@ -17,3 +17,14 @@ Au final la liste devra ressembler à :
 
 Écrire une fonction qui retourne un tableau comprenant tous les numéros des sièges.
 */
+const seat = Array();
+
+for(let i=0; i<26; i++)
+ seat[i] = new Array();
+
+ for (let i=0; i<26; i++)
+  
+  for(let j=0; j<26; j++)
+    seat[i][j] = 0;
+
+console.log(seat);
